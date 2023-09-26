@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:ital,wght@1,600&display=swap");
+
+body {
+  background-color: #1e293b;
+}
+/* .dynamic {
+  height: 70px;
+  line-height: 70px;
+  margin-top: 10px;
+} */
+.code {
+  font-family: "fira code", monospace;
+}
+.slide {
+  height: 30px;
+  overflow: hidden;
+  margin: 10px 0px;
+}
+.slide li {
+  list-style: none;
+  position: relative;
+  width: fit-content;
+  line-height: 30px;
+  top: 0;
+  animation: slide 6s steps(2) infinite;
+}
+.slide li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  background: #1e293b;
+  border-left: 2px solid violet;
+  animation: typing 3s steps(9) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -230%;
+  }
+}
+/* .dynamic {
+  margin: 10px 0px;
+  overflow: hidden;
+}
+.dynamic span {
+  position: relative;
+  line-height: 50px;
+  font-size: xx-large;
+}
+.dynamic span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: #1e293b;
+  border-left: 2px solid violet;
+  animation: typing 6s steps(16) infinite;
+}*/
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100%);
+  }
+  100% {
+    left: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .dynamic span {
+    line-height: 40px;
+    font-size: x-large;
+  }
+  .dynamic span:after {
+    height: 40px;
+  }
+}
