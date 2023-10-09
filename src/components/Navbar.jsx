@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const navlist = [
     { path: "/", name: "🏡Home" },
-    { path: "/project", name: "📂Project" },
+    { path: "/project", name: "Experience" },
     { path: "/skill", name: "📌Skills" },
     { path: "/interest", name: "💻Interest" },
     { path: "/awards", name: "🎁Awards" },

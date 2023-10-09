@@ -32,6 +32,14 @@ export const skills = [
     tech: "Node Js",
   },
   {
+    images: "express.svg",
+    tech: "Express Js",
+  },
+  {
+    images: "mongodb.svg",
+    tech: "MongoDB",
+  },
+  {
     images: "bootstrap.svg",
     tech: "Bootstrap",
   },

@@ -6,10 +6,10 @@ export default class Awards extends Component {
   render() {
     return (
       <Template title="Awards">
-        <h1 className="text-purple-500 text-2xl mb-4 py-3">
+        <h1 className="text-center text-purple-500 text-2xl mb-4 py-3">
           My Awards and Setivicate
         </h1>
-        <p className="mb-4">Showcasing my sertivicate</p>
+        <p className="mb-4 text-center">Showcasing my sertivicate</p>
         <div className="flex flex-wrap w-full justify-between">
           {certificate.map((serti) => (
             <div className="flex p-2 my-2 w-full bg-[#333] rounded lg:w-[49%]">

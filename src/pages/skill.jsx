@@ -6,11 +6,13 @@ export default class Skills extends Component {
   render() {
     return (
       <Template title="Skill">
-        <h1 className="text-purple-500 text-2xl mb-4 py-3">Skill</h1>
-        <p>Showcasing my Skills in programming</p>
-        <div className="flex text-center mt-8 justify-between flex-wrap">
+        <h1 className="text-purple-500 text-center text-2xl mb-4 py-3">
+          Skill
+        </h1>
+        <p className="text-center">Showcasing my Skills in programming</p>
+        <div className="flex text-center mt-8 justify-center flex-wrap">
           {skills.map((skill) => (
-            <div key={skill.tech} className="my-2 w-[32%] lg:w-[24%]">
+            <div key={skill.tech} className="my-2 mx-[5px] w-[32%] lg:w-[24%]">
               <div className="flex items-center justify-center p-4 bg-green-800 rounded">
                 <img src={`/icon/${skill.images}`} width="70px" alt="" />
               </div>
