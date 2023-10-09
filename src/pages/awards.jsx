@@ -7,7 +7,7 @@ export default class Awards extends Component {
     return (
       <Template title="Awards">
         <h1 className="text-center text-purple-500 text-2xl mb-4 py-3">
-          My Awards and Setivicate
+          My Awards and Setificate
         </h1>
         <p className="mb-4 text-center">Showcasing my sertivicate</p>
         <div className="flex flex-wrap w-full justify-between">
