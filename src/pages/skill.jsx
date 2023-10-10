@@ -10,9 +10,12 @@ export default class Skills extends Component {
           Skill
         </h1>
         <p className="text-center">Showcasing my Skills in programming</p>
-        <div className="flex text-center mt-8 justify-center flex-wrap">
+        <div className="flex text-center mt-8 justify-between lg:justify-center flex-wrap">
           {skills.map((skill) => (
-            <div key={skill.tech} className="my-2 mx-[5px] w-[32%] lg:w-[24%]">
+            <div
+              key={skill.tech}
+              className="my-2 mx-0 lg:mx-[5px] w-[32%] lg:w-[24%]"
+            >
               <div className="flex items-center justify-center p-4 bg-green-800 rounded">
                 <img src={`/icon/${skill.images}`} width="70px" alt="" />
               </div>
