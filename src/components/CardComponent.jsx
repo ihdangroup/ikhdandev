@@ -1,8 +1,17 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 const Card = ({ project }) => {
   return (
     <div className="w-full  bg-[#333] lg:w-[31%] my-4 mx-[5px] rounded-lg">
       <div className="p-1 rounded">
-        <img src={`/images/${project.images}`} className="rounded-md" alt="" />
+        <LazyLoadImage
+          src={`/images/${project.images}`}
+          className="rounded-md"
+          alt={`${project.images}`}
+          height="500"
+          effect="blur"
+          width="100%"
+        />
       </div>
       <div className="p-4 rounded">
         <a target="_blank" href={`${project.href}`}>
