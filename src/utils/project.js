@@ -14,6 +14,13 @@ export const projects = [
     icons: ["react.svg", "tailwind.svg"],
   },
   {
+    title: "Search Cars",
+    href: "https://my-cars-showcase.vercel.app",
+    images: "cars.png",
+    body: "On this website there are various car specifications that you can see.",
+    icons: ["next.svg", "typescript.svg", "tailwind.svg"],
+  },
+  {
     title: "Al-qur'an App",
     href: "https://my-al-quran.vercel.app",
     images: "al-quran.png",

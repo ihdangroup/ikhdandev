@@ -1,11 +1,19 @@
 export const skills = [
   {
-    images: "github.svg",
-    tech: "Github",
+    images: "javascript.svg",
+    tech: "Javascript",
+  },
+  {
+    images: "typescript.svg",
+    tech: "Typescript",
   },
   {
     images: "react.svg",
     tech: "React JS",
+  },
+  {
+    images: "next.svg",
+    tech: "Next JS",
   },
   {
     images: "html.svg",
@@ -15,10 +23,7 @@ export const skills = [
     images: "css.svg",
     tech: "CSS",
   },
-  {
-    images: "javascript.svg",
-    tech: "Javascript",
-  },
+
   {
     images: "tailwind.svg",
     tech: "Tailwind CSS",
@@ -42,5 +47,9 @@ export const skills = [
   {
     images: "bootstrap.svg",
     tech: "Bootstrap",
+  },
+  {
+    images: "github.svg",
+    tech: "Github",
   },
 ];
