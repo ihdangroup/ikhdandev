@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Bukapedia",
+    href: "https://bukapedia-three.vercel.app",
+    images: "bukapedia.png",
+    body: "fake store with cart featur",
+    icons: ["react.svg", "tailwind.svg", "redux.svg"],
+  },
+  {
     title: "Weather App",
     href: "https://weatherapp-indol-nu.vercel.app",
     images: "weather.png",
