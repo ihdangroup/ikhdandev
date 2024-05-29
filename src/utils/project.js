@@ -7,6 +7,13 @@ export const projects = [
     icons: ["react.svg", "tailwind.svg", "redux.svg"],
   },
   {
+    title: "Learning Management System",
+    href: "",
+    images: "lms.png",
+    body: "fake store with cart featur",
+    icons: ["php.svg", "laravel.svg", "mysql.svg", "next.svg", "tailwind.svg"],
+  },
+  {
     title: "Weather App",
     href: "https://weatherapp-indol-nu.vercel.app",
     images: "weather.png",
@@ -21,7 +28,7 @@ export const projects = [
     icons: ["react.svg", "tailwind.svg"],
   },
   {
-    title: "Search Cars",
+    title: "Cars Showcase",
     href: "https://my-cars-showcase.vercel.app",
     images: "cars.png",
     body: "On this website there are various car specifications that you can see.",
@@ -29,23 +36,9 @@ export const projects = [
   },
   {
     title: "Al-qur'an App",
-    href: "https://my-al-quran.vercel.app",
-    images: "al-quran.png",
+    href: "https://quran-green.vercel.app",
+    images: "quran.png",
     body: "website for reading the Al-Qur'an and audio is provided.",
     icons: ["react.svg", "tailwind.svg"],
-  },
-  {
-    title: "Frontdev Company",
-    href: "https://frontdevtech.vercel.app",
-    images: "frontdev.png",
-    body: "frontdev company profile website which provides digital services.",
-    icons: ["html.svg", "css.svg", "javascript.svg"],
-  },
-  {
-    title: "Calculator",
-    href: "https://calculatorapp-gold.vercel.app",
-    images: "calculator.png",
-    body: "calculator as a website-based calculation tool.",
-    icons: ["html.svg", "css.svg", "javascript.svg"],
   },
 ];

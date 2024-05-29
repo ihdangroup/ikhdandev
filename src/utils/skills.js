@@ -4,12 +4,20 @@ export const skills = [
     tech: "Javascript",
   },
   {
+    images: "php.svg",
+    tech: "PHP",
+  },
+  {
     images: "typescript.svg",
     tech: "Typescript",
   },
   {
     images: "react.svg",
     tech: "React JS",
+  },
+  {
+    images: "laravel.svg",
+    tech: "Laravel",
   },
   {
     images: "next.svg",
@@ -39,6 +47,10 @@ export const skills = [
   {
     images: "express.svg",
     tech: "Express Js",
+  },
+  {
+    images: "mysql.svg",
+    tech: "Mysql",
   },
   {
     images: "mongodb.svg",
