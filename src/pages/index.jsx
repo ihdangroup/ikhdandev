@@ -8,7 +8,7 @@ export default class Portfolio extends Component {
     return (
       <Template title="Home">
         <div className="flex items-center flex-wrap">
-          <div className="w-full text-left pt-6 lg:w-1/2">
+          <div className="w-full p-6 text-left pt-6 lg:w-1/2">
             <span className="text-xl">Hello World 👋, I am</span>
             <h1 className="my-4 text-3xl">Ikhdan Maghfuron</h1>
             <ul className="slide">
@@ -23,8 +23,10 @@ export default class Portfolio extends Component {
             </ul>
             <p>
               Hello, my name is ikhdan, I am a student at peradaban university,
-              I have experience in developing website appearance especially
-              using React JS technology, I like problem solving and programming.
+              I am a graduate of Bangkit 2024 batch 2 with the machine learning
+              pathway, I have experience in developing website appearance
+              especially using React JS technology, I like problem solving and
+              programming.
             </p>
             <p className="my-4">Let's Connect</p>
             <div className="flex items-center">

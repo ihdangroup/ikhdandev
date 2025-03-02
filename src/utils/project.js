@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Jimpit: Sistem Pengelolaan Tabungan Masyarakat Desa Babakan",
+    href: "https://jimpit.my.id",
+    images: "jimpit.png",
+    body: "Sebuah Sistem yang Berfungsi Untuk Mengelola Jimpit di desa Babakan, Kecamatan Kawunganten",
+    icons: ["laravel.svg", "mysql.svg", "bootstrap.svg"],
+  },
+  {
     title: "Bukapedia",
     href: "https://bukapedia-three.vercel.app",
     images: "bukapedia.png",
@@ -10,7 +17,7 @@ export const projects = [
     title: "Learning Management System",
     href: "",
     images: "lms.png",
-    body: "fake store with cart featur",
+    body: "Sistem Pengelolaan Pembelajaran",
     icons: ["php.svg", "laravel.svg", "mysql.svg", "next.svg", "tailwind.svg"],
   },
   {
